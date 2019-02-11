@@ -1,5 +1,7 @@
 import { Component, OnInit } from  '@angular/core';
 import { MatDialog, MatDialogRef } from  '@angular/material';
+import { Router } from '@angular/router';
+import { MessageComponent } from '../message/message.component';
 
 @Component({
   selector: 'app-login',
